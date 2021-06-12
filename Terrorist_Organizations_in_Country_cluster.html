@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ab06c16297ce4f34af277b230cc25f21 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ab06c16297ce4f34af277b230cc25f21" ></div>
+        
+</body>
+<script>    
+    
+            var map_ab06c16297ce4f34af277b230cc25f21 = L.map(
+                "map_ab06c16297ce4f34af277b230cc25f21",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d72cfdecfafc4a2aa0024abbfe455ed5 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+        
+    
+            var marker_cluster_c30704a873de4562a153ec08c0bd2f21 = L.markerClusterGroup(
+                {}
+            );
+            map_ab06c16297ce4f34af277b230cc25f21.addLayer(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+            var marker_03e7b79fe5db450ba2eec6ce29ae9932 = L.marker(
+                [15.675051000000002, 120.33161799999999],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_0d0ea3c50b9445b78d1da9c595ea6d25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da860f94f385450997f37cbdde877df5 = $(`<div id="html_da860f94f385450997f37cbdde877df5" style="width: 100.0%; height: 100.0%;">Group:New People's Army (NPA)<br>Country:Philippines</div>`)[0];
+            popup_0d0ea3c50b9445b78d1da9c595ea6d25.setContent(html_da860f94f385450997f37cbdde877df5);
+        
+
+        marker_03e7b79fe5db450ba2eec6ce29ae9932.bindPopup(popup_0d0ea3c50b9445b78d1da9c595ea6d25)
+        ;
+
+        
+    
+    
+            var marker_60d0d253c8b1411ab48962fe1f127688 = L.marker(
+                [55.011562, -7.3120449999999995],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_387dde7b151c46119ff27d4061e7ee38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de43b70fddc4c5e959a9e54ede073f6 = $(`<div id="html_0de43b70fddc4c5e959a9e54ede073f6" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:United Kingdom</div>`)[0];
+            popup_387dde7b151c46119ff27d4061e7ee38.setContent(html_0de43b70fddc4c5e959a9e54ede073f6);
+        
+
+        marker_60d0d253c8b1411ab48962fe1f127688.bindPopup(popup_387dde7b151c46119ff27d4061e7ee38)
+        ;
+
+        
+    
+    
+            var marker_c0fc6df03fe54ab1b56160cf7cf993ad = L.marker(
+                [53.361675, -6.2454849999999995],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_4e21b30c19bc4cdc9f7ee07d27cd4929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_747c58222daf490d9462d551d60b4c4e = $(`<div id="html_747c58222daf490d9462d551d60b4c4e" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Ireland</div>`)[0];
+            popup_4e21b30c19bc4cdc9f7ee07d27cd4929.setContent(html_747c58222daf490d9462d551d60b4c4e);
+        
+
+        marker_c0fc6df03fe54ab1b56160cf7cf993ad.bindPopup(popup_4e21b30c19bc4cdc9f7ee07d27cd4929)
+        ;
+
+        
+    
+    
+            var marker_8bf4192db34f43e28e387b66d5686749 = L.marker(
+                [38.908642, -77.015381],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_7acbe2715ddc4f49adb9d248432f01ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e44e77043e254af1a1e4b47a833e6f6c = $(`<div id="html_e44e77043e254af1a1e4b47a833e6f6c" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:United States</div>`)[0];
+            popup_7acbe2715ddc4f49adb9d248432f01ec.setContent(html_e44e77043e254af1a1e4b47a833e6f6c);
+        
+
+        marker_8bf4192db34f43e28e387b66d5686749.bindPopup(popup_7acbe2715ddc4f49adb9d248432f01ec)
+        ;
+
+        
+    
+    
+            var marker_f3cca352ec044adda588bc89dc945b81 = L.marker(
+                [-4.389166, 15.337620000000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_947fb7bd758f41b1844f33f2a1e9c214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_293298f9fc11493495b69af8d8b67bc9 = $(`<div id="html_293298f9fc11493495b69af8d8b67bc9" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Zaire</div>`)[0];
+            popup_947fb7bd758f41b1844f33f2a1e9c214.setContent(html_293298f9fc11493495b69af8d8b67bc9);
+        
+
+        marker_f3cca352ec044adda588bc89dc945b81.bindPopup(popup_947fb7bd758f41b1844f33f2a1e9c214)
+        ;
+
+        
+    
+    
+            var marker_975ba026b68447c5bd3eefc790357787 = L.marker(
+                [38.725299, -9.150036],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_76ad6f4af52047af99c841a27366f02c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe4dfecf1e34db5910e1f59c338f6f6 = $(`<div id="html_7fe4dfecf1e34db5910e1f59c338f6f6" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Portugal</div>`)[0];
+            popup_76ad6f4af52047af99c841a27366f02c.setContent(html_7fe4dfecf1e34db5910e1f59c338f6f6);
+        
+
+        marker_975ba026b68447c5bd3eefc790357787.bindPopup(popup_76ad6f4af52047af99c841a27366f02c)
+        ;
+
+        
+    
+    
+            var marker_bb5b3112415c4fba917762eadc01d766 = L.marker(
+                [-13.152712, -74.21862800000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_5f533d288835407f8628dbc04bc9504f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ddc8d0c90c24b279ca194435dd198b6 = $(`<div id="html_0ddc8d0c90c24b279ca194435dd198b6" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Peru</div>`)[0];
+            popup_5f533d288835407f8628dbc04bc9504f.setContent(html_0ddc8d0c90c24b279ca194435dd198b6);
+        
+
+        marker_bb5b3112415c4fba917762eadc01d766.bindPopup(popup_5f533d288835407f8628dbc04bc9504f)
+        ;
+
+        
+    
+    
+            var marker_2430a7eeae97403bac510d1105e307e8 = L.marker(
+                [51.148407, 6.357643],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_a600e5fffbe94c918bde500c30736664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9631db8a15149a6995f241ef26b216f = $(`<div id="html_b9631db8a15149a6995f241ef26b216f" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:West Germany (FRG)</div>`)[0];
+            popup_a600e5fffbe94c918bde500c30736664.setContent(html_b9631db8a15149a6995f241ef26b216f);
+        
+
+        marker_2430a7eeae97403bac510d1105e307e8.bindPopup(popup_a600e5fffbe94c918bde500c30736664)
+        ;
+
+        
+    
+    
+            var marker_8e106eb32ca6447788257a3450467ada = L.marker(
+                [14.050173000000001, -88.837704],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_63902806898844a1aceff138d1d19a63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_849b880484634453bfa34aac1f248b32 = $(`<div id="html_849b880484634453bfa34aac1f248b32" style="width: 100.0%; height: 100.0%;">Group:Farabundo Marti National Liberation Front (FMLN)<br>Country:El Salvador</div>`)[0];
+            popup_63902806898844a1aceff138d1d19a63.setContent(html_849b880484634453bfa34aac1f248b32);
+        
+
+        marker_8e106eb32ca6447788257a3450467ada.bindPopup(popup_63902806898844a1aceff138d1d19a63)
+        ;
+
+        
+    
+    
+            var marker_e209f0a9cb10449dbfa41d2687fbe69d = L.marker(
+                [50.836426, 4.367415],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_5c38d5347a824fd99eed25a4934edf0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f18c7460526d416a95887ec43dcdaa64 = $(`<div id="html_f18c7460526d416a95887ec43dcdaa64" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Belgium</div>`)[0];
+            popup_5c38d5347a824fd99eed25a4934edf0d.setContent(html_f18c7460526d416a95887ec43dcdaa64);
+        
+
+        marker_e209f0a9cb10449dbfa41d2687fbe69d.bindPopup(popup_5c38d5347a824fd99eed25a4934edf0d)
+        ;
+
+        
+    
+    
+            var marker_1fe09aa44aa84c53886c50bc6a3ae71c = L.marker(
+                [52.069858, 4.291111],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_9f4d3819dcd34f41b4d283a000478388 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8677e2ebef2840db9bc332d173802c52 = $(`<div id="html_8677e2ebef2840db9bc332d173802c52" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Netherlands</div>`)[0];
+            popup_9f4d3819dcd34f41b4d283a000478388.setContent(html_8677e2ebef2840db9bc332d173802c52);
+        
+
+        marker_1fe09aa44aa84c53886c50bc6a3ae71c.bindPopup(popup_9f4d3819dcd34f41b4d283a000478388)
+        ;
+
+        
+    
+    
+            var marker_2b05402f2c5c44698e36dfcf40c19cd7 = L.marker(
+                [14.622869, -90.52906800000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_04d2511368ba4a32ad20b9dc957929e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab7697a102c74b3e8e19ffac95555c2f = $(`<div id="html_ab7697a102c74b3e8e19ffac95555c2f" style="width: 100.0%; height: 100.0%;">Group:Farabundo Marti National Liberation Front (FMLN)<br>Country:Guatemala</div>`)[0];
+            popup_04d2511368ba4a32ad20b9dc957929e5.setContent(html_ab7697a102c74b3e8e19ffac95555c2f);
+        
+
+        marker_2b05402f2c5c44698e36dfcf40c19cd7.bindPopup(popup_04d2511368ba4a32ad20b9dc957929e5)
+        ;
+
+        
+    
+    
+            var marker_dd1191389230415cacd4e7445b9070b8 = L.marker(
+                [56.162939, 10.203921000000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_1c11c7d3b0314c5bab36c8c4dc6694f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e06c4d0d2b644120817520bbfaf7a6e2 = $(`<div id="html_e06c4d0d2b644120817520bbfaf7a6e2" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Denmark</div>`)[0];
+            popup_1c11c7d3b0314c5bab36c8c4dc6694f9.setContent(html_e06c4d0d2b644120817520bbfaf7a6e2);
+        
+
+        marker_dd1191389230415cacd4e7445b9070b8.bindPopup(popup_1c11c7d3b0314c5bab36c8c4dc6694f9)
+        ;
+
+        
+    
+    
+            var marker_812380bc8965479c97a751ee833d3b1f = L.marker(
+                [47.36865, 8.539182],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_846be0ec612f47dc92719fa59f3b3cbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d58c04e8954e43b826e2f63c9e51ae = $(`<div id="html_21d58c04e8954e43b826e2f63c9e51ae" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Switzerland</div>`)[0];
+            popup_846be0ec612f47dc92719fa59f3b3cbb.setContent(html_21d58c04e8954e43b826e2f63c9e51ae);
+        
+
+        marker_812380bc8965479c97a751ee833d3b1f.bindPopup(popup_846be0ec612f47dc92719fa59f3b3cbb)
+        ;
+
+        
+    
+    
+            var marker_c40b7ccff3be4dfdb356e007d0a9f89a = L.marker(
+                [40.620663, 22.951999999999998],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_f8ae1373b16c4bf99d4e74038584fa0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_480078f6a13249d7b3f4cf72b03ba5c4 = $(`<div id="html_480078f6a13249d7b3f4cf72b03ba5c4" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Greece</div>`)[0];
+            popup_f8ae1373b16c4bf99d4e74038584fa0d.setContent(html_480078f6a13249d7b3f4cf72b03ba5c4);
+        
+
+        marker_c40b7ccff3be4dfdb356e007d0a9f89a.bindPopup(popup_f8ae1373b16c4bf99d4e74038584fa0d)
+        ;
+
+        
+    
+    
+            var marker_4c7581252e3e490ba6f139bc14e8bc3b = L.marker(
+                [47.218371000000005, -1.553621],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_0ed8ee4d4ecc401eb284aff86f2362bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6da209fdee544e7bdcfed36ae3cfc27 = $(`<div id="html_c6da209fdee544e7bdcfed36ae3cfc27" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:France</div>`)[0];
+            popup_0ed8ee4d4ecc401eb284aff86f2362bf.setContent(html_c6da209fdee544e7bdcfed36ae3cfc27);
+        
+
+        marker_4c7581252e3e490ba6f139bc14e8bc3b.bindPopup(popup_0ed8ee4d4ecc401eb284aff86f2362bf)
+        ;
+
+        
+    
+    
+            var marker_fc165ae41a734ff09c54af13929af3c6 = L.marker(
+                [14.060286999999999, -88.695229],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_73e9c2772b7745fabfdb942d96c39f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0677b7fb67844a08ac76589eed9d0d11 = $(`<div id="html_0677b7fb67844a08ac76589eed9d0d11" style="width: 100.0%; height: 100.0%;">Group:Farabundo Marti National Liberation Front (FMLN)<br>Country:Honduras</div>`)[0];
+            popup_73e9c2772b7745fabfdb942d96c39f2a.setContent(html_0677b7fb67844a08ac76589eed9d0d11);
+        
+
+        marker_fc165ae41a734ff09c54af13929af3c6.bindPopup(popup_73e9c2772b7745fabfdb942d96c39f2a)
+        ;
+
+        
+    
+    
+            var marker_59358d9b4413495e84ba817f755c4d0a = L.marker(
+                [9.933333, -84.083333],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_c5a8bf7304b54ab186c7419f95831ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f52b3b01b7640009af7c6f9a6b72083 = $(`<div id="html_2f52b3b01b7640009af7c6f9a6b72083" style="width: 100.0%; height: 100.0%;">Group:Farabundo Marti National Liberation Front (FMLN)<br>Country:Costa Rica</div>`)[0];
+            popup_c5a8bf7304b54ab186c7419f95831ed5.setContent(html_2f52b3b01b7640009af7c6f9a6b72083);
+        
+
+        marker_59358d9b4413495e84ba817f755c4d0a.bindPopup(popup_c5a8bf7304b54ab186c7419f95831ed5)
+        ;
+
+        
+    
+    
+            var marker_40cdc57a10b64ddca53ba0b0a25109a9 = L.marker(
+                [12.103822000000001, -86.267014],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_2c35930d0f7a4df2bda1a318f84bd80e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db78e1413833429593dfd66c3c0c8584 = $(`<div id="html_db78e1413833429593dfd66c3c0c8584" style="width: 100.0%; height: 100.0%;">Group:Farabundo Marti National Liberation Front (FMLN)<br>Country:Nicaragua</div>`)[0];
+            popup_2c35930d0f7a4df2bda1a318f84bd80e.setContent(html_db78e1413833429593dfd66c3c0c8584);
+        
+
+        marker_40cdc57a10b64ddca53ba0b0a25109a9.bindPopup(popup_2c35930d0f7a4df2bda1a318f84bd80e)
+        ;
+
+        
+    
+    
+            var marker_353e96ecc29f4deda64fdb3fd777050a = L.marker(
+                [-16.509317000000003, -68.10434000000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_c74e341c4a2f43f69c20436fc4846b01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9875ec3acf784bb7bb8d99f56d188bb9 = $(`<div id="html_9875ec3acf784bb7bb8d99f56d188bb9" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Bolivia</div>`)[0];
+            popup_c74e341c4a2f43f69c20436fc4846b01.setContent(html_9875ec3acf784bb7bb8d99f56d188bb9);
+        
+
+        marker_353e96ecc29f4deda64fdb3fd777050a.bindPopup(popup_c74e341c4a2f43f69c20436fc4846b01)
+        ;
+
+        
+    
+    
+            var marker_fb8e4f73d2b145d9a2ccafa74d22f178 = L.marker(
+                [7.709167, -74.753333],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_811084d44675437f8d3a7b0249abdd43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30ebabf8e00c42de9a6c78f87e485e71 = $(`<div id="html_30ebabf8e00c42de9a6c78f87e485e71" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Colombia</div>`)[0];
+            popup_811084d44675437f8d3a7b0249abdd43.setContent(html_30ebabf8e00c42de9a6c78f87e485e71);
+        
+
+        marker_fb8e4f73d2b145d9a2ccafa74d22f178.bindPopup(popup_811084d44675437f8d3a7b0249abdd43)
+        ;
+
+        
+    
+    
+            var marker_811b34390c9049c7889ff924550b0cbf = L.marker(
+                [-34.61768, -58.444435],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_c94e1a1f899741daa6a9610fd44b1a32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0565b2402b6d461ba77ee10d5a1b35af = $(`<div id="html_0565b2402b6d461ba77ee10d5a1b35af" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Argentina</div>`)[0];
+            popup_c94e1a1f899741daa6a9610fd44b1a32.setContent(html_0565b2402b6d461ba77ee10d5a1b35af);
+        
+
+        marker_811b34390c9049c7889ff924550b0cbf.bindPopup(popup_c94e1a1f899741daa6a9610fd44b1a32)
+        ;
+
+        
+    
+    
+            var marker_ac423cc9abe0432eab1b260cb806ea96 = L.marker(
+                [-3.416843, -65.856065],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_e83e7aa2490d41308b1a49a97f8afc18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fbba1166c8f499e8d6cd816af82c2d3 = $(`<div id="html_3fbba1166c8f499e8d6cd816af82c2d3" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Brazil</div>`)[0];
+            popup_e83e7aa2490d41308b1a49a97f8afc18.setContent(html_3fbba1166c8f499e8d6cd816af82c2d3);
+        
+
+        marker_ac423cc9abe0432eab1b260cb806ea96.bindPopup(popup_e83e7aa2490d41308b1a49a97f8afc18)
+        ;
+
+        
+    
+    
+            var marker_7a30ee0a405543c3b6e4166ad00b73d3 = L.marker(
+                [19.371887, -99.086624],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_4037226130d34f9f957449875e869941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee86314dc6844e3b8548747f5726df1c = $(`<div id="html_ee86314dc6844e3b8548747f5726df1c" style="width: 100.0%; height: 100.0%;">Group:Shining Path (SL)<br>Country:Mexico</div>`)[0];
+            popup_4037226130d34f9f957449875e869941.setContent(html_ee86314dc6844e3b8548747f5726df1c);
+        
+
+        marker_7a30ee0a405543c3b6e4166ad00b73d3.bindPopup(popup_4037226130d34f9f957449875e869941)
+        ;
+
+        
+    
+    
+            var marker_340ba08481e0470bbf043e78f1e1a88c = L.marker(
+                [31.631083, 65.742226],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_eabf7bddc7b24dacabab2d41e238bfaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c77ad8d2ede494aae7400feb73fbafa = $(`<div id="html_6c77ad8d2ede494aae7400feb73fbafa" style="width: 100.0%; height: 100.0%;">Group:Taliban<br>Country:Afghanistan</div>`)[0];
+            popup_eabf7bddc7b24dacabab2d41e238bfaf.setContent(html_6c77ad8d2ede494aae7400feb73fbafa);
+        
+
+        marker_340ba08481e0470bbf043e78f1e1a88c.bindPopup(popup_eabf7bddc7b24dacabab2d41e238bfaf)
+        ;
+
+        
+    
+    
+            var marker_0bcf9a058e2a42609f4f4233c1243ff0 = L.marker(
+                [52.267281, 8.053188],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_81c8734cb52849e2964374fe0c0059b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a656da1f7fc74bd9b09765bbb417a697 = $(`<div id="html_a656da1f7fc74bd9b09765bbb417a697" style="width: 100.0%; height: 100.0%;">Group:Irish Republican Army (IRA)<br>Country:Germany</div>`)[0];
+            popup_81c8734cb52849e2964374fe0c0059b1.setContent(html_a656da1f7fc74bd9b09765bbb417a697);
+        
+
+        marker_0bcf9a058e2a42609f4f4233c1243ff0.bindPopup(popup_81c8734cb52849e2964374fe0c0059b1)
+        ;
+
+        
+    
+    
+            var marker_a72d1d2438d14d6296c90fff3f712b29 = L.marker(
+                [33.006516, 70.068253],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_48bcdad29f9748a1bf075f2106df87a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f65b4d3daf1848d0b47d231ec10e14cd = $(`<div id="html_f65b4d3daf1848d0b47d231ec10e14cd" style="width: 100.0%; height: 100.0%;">Group:Taliban<br>Country:Pakistan</div>`)[0];
+            popup_48bcdad29f9748a1bf075f2106df87a9.setContent(html_f65b4d3daf1848d0b47d231ec10e14cd);
+        
+
+        marker_a72d1d2438d14d6296c90fff3f712b29.bindPopup(popup_48bcdad29f9748a1bf075f2106df87a9)
+        ;
+
+        
+    
+    
+            var marker_c15871a8d0f94b78babf7385f6182705 = L.marker(
+                [4.180091, 42.056609],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_48e5707539f245adba9693c0a49f91f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae39fc4693df4f58a87b4b7b9365dbb5 = $(`<div id="html_ae39fc4693df4f58a87b4b7b9365dbb5" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Ethiopia</div>`)[0];
+            popup_48e5707539f245adba9693c0a49f91f4.setContent(html_ae39fc4693df4f58a87b4b7b9365dbb5);
+        
+
+        marker_c15871a8d0f94b78babf7385f6182705.bindPopup(popup_48e5707539f245adba9693c0a49f91f4)
+        ;
+
+        
+    
+    
+            var marker_0ffcf81b290142a0b66a8ed35105c235 = L.marker(
+                [2.059819, 45.326115],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_115ae88b97444953ae392e2772f5c9e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acc22a44ede64eb89d5247efb8f080ca = $(`<div id="html_acc22a44ede64eb89d5247efb8f080ca" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Somalia</div>`)[0];
+            popup_115ae88b97444953ae392e2772f5c9e8.setContent(html_acc22a44ede64eb89d5247efb8f080ca);
+        
+
+        marker_0ffcf81b290142a0b66a8ed35105c235.bindPopup(popup_115ae88b97444953ae392e2772f5c9e8)
+        ;
+
+        
+    
+    
+            var marker_1dcad15bc28a4cfc905054c216b5f07b = L.marker(
+                [0.349466, 40.875992],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_8063b658111f454b9edd4c17291b852c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79585d8364264f68b10c522e40313013 = $(`<div id="html_79585d8364264f68b10c522e40313013" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Kenya</div>`)[0];
+            popup_8063b658111f454b9edd4c17291b852c.setContent(html_79585d8364264f68b10c522e40313013);
+        
+
+        marker_1dcad15bc28a4cfc905054c216b5f07b.bindPopup(popup_8063b658111f454b9edd4c17291b852c)
+        ;
+
+        
+    
+    
+            var marker_172d0275f4b3436b876356f5dd85235d = L.marker(
+                [32.901089, 69.74940500000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_cb2cb2a53a05472b8175a17db8cfebf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5ad7fc2035f436c8ac32949d9f7b580 = $(`<div id="html_c5ad7fc2035f436c8ac32949d9f7b580" style="width: 100.0%; height: 100.0%;">Group:New People's Army (NPA)<br>Country:Pakistan</div>`)[0];
+            popup_cb2cb2a53a05472b8175a17db8cfebf4.setContent(html_c5ad7fc2035f436c8ac32949d9f7b580);
+        
+
+        marker_172d0275f4b3436b876356f5dd85235d.bindPopup(popup_cb2cb2a53a05472b8175a17db8cfebf4)
+        ;
+
+        
+    
+    
+            var marker_9fbfc54b4d194fc6baf8a7e63678120c = L.marker(
+                [0.350848, 32.580224],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_35e5f6932d1048559265f623b91c414b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0570dfd0a5694d2fbd79218e282a9728 = $(`<div id="html_0570dfd0a5694d2fbd79218e282a9728" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Uganda</div>`)[0];
+            popup_35e5f6932d1048559265f623b91c414b.setContent(html_0570dfd0a5694d2fbd79218e282a9728);
+        
+
+        marker_9fbfc54b4d194fc6baf8a7e63678120c.bindPopup(popup_35e5f6932d1048559265f623b91c414b)
+        ;
+
+        
+    
+    
+            var marker_a6c9cfb92aa44a56a7acabb95de909ea = L.marker(
+                [24.817010999999997, 93.936844],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_637deb4cabfc45938297a536253b3766 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dfb62417c8b4055a07b6bc4698c8ef7 = $(`<div id="html_8dfb62417c8b4055a07b6bc4698c8ef7" style="width: 100.0%; height: 100.0%;">Group:New People's Army (NPA)<br>Country:India</div>`)[0];
+            popup_637deb4cabfc45938297a536253b3766.setContent(html_8dfb62417c8b4055a07b6bc4698c8ef7);
+        
+
+        marker_a6c9cfb92aa44a56a7acabb95de909ea.bindPopup(popup_637deb4cabfc45938297a536253b3766)
+        ;
+
+        
+    
+    
+            var marker_79ce06480ef7444a922756bd1a66f6b9 = L.marker(
+                [36.310444, 36.689156],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_43064bc47bba4484b73a019281272783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd93c490e664a5f9f546e8f52a625bb = $(`<div id="html_bcd93c490e664a5f9f546e8f52a625bb" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Syria</div>`)[0];
+            popup_43064bc47bba4484b73a019281272783.setContent(html_bcd93c490e664a5f9f546e8f52a625bb);
+        
+
+        marker_79ce06480ef7444a922756bd1a66f6b9.bindPopup(popup_43064bc47bba4484b73a019281272783)
+        ;
+
+        
+    
+    
+            var marker_9dd59f0028c2465eb6308e95b5709d3d = L.marker(
+                [33.303566, 44.371773],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_2d1d443c2df9445e838688e475ceeb9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_344488e7db75440797b610a57b3e1c59 = $(`<div id="html_344488e7db75440797b610a57b3e1c59" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Iraq</div>`)[0];
+            popup_2d1d443c2df9445e838688e475ceeb9d.setContent(html_344488e7db75440797b610a57b3e1c59);
+        
+
+        marker_9dd59f0028c2465eb6308e95b5709d3d.bindPopup(popup_2d1d443c2df9445e838688e475ceeb9d)
+        ;
+
+        
+    
+    
+            var marker_d88c7e935f3c4234aca647be7cc7c515 = L.marker(
+                [36.264221, 36.565708],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_eb6d4a7a043d42a7bcce983d01923d23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b73f3790665448c2bbbeed5f9ff276a3 = $(`<div id="html_b73f3790665448c2bbbeed5f9ff276a3" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Turkey</div>`)[0];
+            popup_eb6d4a7a043d42a7bcce983d01923d23.setContent(html_b73f3790665448c2bbbeed5f9ff276a3);
+        
+
+        marker_d88c7e935f3c4234aca647be7cc7c515.bindPopup(popup_eb6d4a7a043d42a7bcce983d01923d23)
+        ;
+
+        
+    
+    
+            var marker_23ebddddf068427496dcfc2faaea31c2 = L.marker(
+                [36.810384, 10.169506],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_737201fca35a4b029d280c34e446f633 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14fd875bdbee4e87859d8c7ecc1a5752 = $(`<div id="html_14fd875bdbee4e87859d8c7ecc1a5752" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Tunisia</div>`)[0];
+            popup_737201fca35a4b029d280c34e446f633.setContent(html_14fd875bdbee4e87859d8c7ecc1a5752);
+        
+
+        marker_23ebddddf068427496dcfc2faaea31c2.bindPopup(popup_737201fca35a4b029d280c34e446f633)
+        ;
+
+        
+    
+    
+            var marker_c7750e4e8f264f8682e22658d791e726 = L.marker(
+                [33.851601, 35.511871],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_09a3284bd1fa46b0a7e93c0bce9d460e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c6cb64f59cc4df584ca50cc5a388885 = $(`<div id="html_6c6cb64f59cc4df584ca50cc5a388885" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Lebanon</div>`)[0];
+            popup_09a3284bd1fa46b0a7e93c0bce9d460e.setContent(html_6c6cb64f59cc4df584ca50cc5a388885);
+        
+
+        marker_c7750e4e8f264f8682e22658d791e726.bindPopup(popup_09a3284bd1fa46b0a7e93c0bce9d460e)
+        ;
+
+        
+    
+    
+            var marker_ff6d4cc066c348c1b1fdfc71bdafcc50 = L.marker(
+                [36.839877, 64.459816],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_350021f555d241f08fc47f44c9983215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f89225fc27394e4988552a942ce3e14c = $(`<div id="html_f89225fc27394e4988552a942ce3e14c" style="width: 100.0%; height: 100.0%;">Group:Taliban<br>Country:Turkmenistan</div>`)[0];
+            popup_350021f555d241f08fc47f44c9983215.setContent(html_f89225fc27394e4988552a942ce3e14c);
+        
+
+        marker_ff6d4cc066c348c1b1fdfc71bdafcc50.bindPopup(popup_350021f555d241f08fc47f44c9983215)
+        ;
+
+        
+    
+    
+            var marker_280193e689f64c458652fd2b53abcc28 = L.marker(
+                [33.269406, 35.772117],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_472463b373e144a7823d96ffead2b8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1b7d7180166400cbb6ced7b17b8fc00 = $(`<div id="html_c1b7d7180166400cbb6ced7b17b8fc00" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Israel</div>`)[0];
+            popup_472463b373e144a7823d96ffead2b8c5.setContent(html_c1b7d7180166400cbb6ced7b17b8fc00);
+        
+
+        marker_280193e689f64c458652fd2b53abcc28.bindPopup(popup_472463b373e144a7823d96ffead2b8c5)
+        ;
+
+        
+    
+    
+            var marker_a58f7694910441969469d0fb082a9bfb = L.marker(
+                [11.587622999999999, 43.146485999999996],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_8a54716ab7ce4f7ab291879922022c4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c04ed272fd584237bf6ce3d7eaaeb3bd = $(`<div id="html_c04ed272fd584237bf6ce3d7eaaeb3bd" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Djibouti</div>`)[0];
+            popup_8a54716ab7ce4f7ab291879922022c4c.setContent(html_c04ed272fd584237bf6ce3d7eaaeb3bd);
+        
+
+        marker_a58f7694910441969469d0fb082a9bfb.bindPopup(popup_8a54716ab7ce4f7ab291879922022c4c)
+        ;
+
+        
+    
+    
+            var marker_193d2ef4eef1484cbb20ecde2766c4f0 = L.marker(
+                [50.836426, 4.367415],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_35228b98ef3f4cb599ca1419d50d0ca9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f6b2910a8c545b49959a44b7cbba41e = $(`<div id="html_5f6b2910a8c545b49959a44b7cbba41e" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Belgium</div>`)[0];
+            popup_35228b98ef3f4cb599ca1419d50d0ca9.setContent(html_5f6b2910a8c545b49959a44b7cbba41e);
+        
+
+        marker_193d2ef4eef1484cbb20ecde2766c4f0.bindPopup(popup_35228b98ef3f4cb599ca1419d50d0ca9)
+        ;
+
+        
+    
+    
+            var marker_58a4731d579c492098bbe589f682bc68 = L.marker(
+                [31.027081, 28.43569],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_c917a9f0471742bd9a2c5dc7f6e86d1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55249d80525c4cdda113c5a378ea0248 = $(`<div id="html_55249d80525c4cdda113c5a378ea0248" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Egypt</div>`)[0];
+            popup_c917a9f0471742bd9a2c5dc7f6e86d1f.setContent(html_55249d80525c4cdda113c5a378ea0248);
+        
+
+        marker_58a4731d579c492098bbe589f682bc68.bindPopup(popup_c917a9f0471742bd9a2c5dc7f6e86d1f)
+        ;
+
+        
+    
+    
+            var marker_24aa5d18334442ae8ea810a825f41136 = L.marker(
+                [30.762318, 20.233005],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_1aab2a2faca1453fb72bfa809f0bb678 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a60874cc1b6a4a11889f108ab7e8974c = $(`<div id="html_a60874cc1b6a4a11889f108ab7e8974c" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Libya</div>`)[0];
+            popup_1aab2a2faca1453fb72bfa809f0bb678.setContent(html_a60874cc1b6a4a11889f108ab7e8974c);
+        
+
+        marker_24aa5d18334442ae8ea810a825f41136.bindPopup(popup_1aab2a2faca1453fb72bfa809f0bb678)
+        ;
+
+        
+    
+    
+            var marker_f0254bcdb87d4a1fa11350ba56097d9f = L.marker(
+                [25.403051, 49.589794],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_15773d9893e24e85a98debc3511cec66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c09b96b8f294255b600e0044f1bfb96 = $(`<div id="html_2c09b96b8f294255b600e0044f1bfb96" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Saudi Arabia</div>`)[0];
+            popup_15773d9893e24e85a98debc3511cec66.setContent(html_2c09b96b8f294255b600e0044f1bfb96);
+        
+
+        marker_f0254bcdb87d4a1fa11350ba56097d9f.bindPopup(popup_15773d9893e24e85a98debc3511cec66)
+        ;
+
+        
+    
+    
+            var marker_8ac65b11b270485eb59434d9073011e4 = L.marker(
+                [31.502407, 34.459742999999996],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_24f81ff049da42e49639cd0f64cf073f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55c7d648434840328c7ccec7501ad9e1 = $(`<div id="html_55c7d648434840328c7ccec7501ad9e1" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:West Bank and Gaza Strip</div>`)[0];
+            popup_24f81ff049da42e49639cd0f64cf073f.setContent(html_55c7d648434840328c7ccec7501ad9e1);
+        
+
+        marker_8ac65b11b270485eb59434d9073011e4.bindPopup(popup_24f81ff049da42e49639cd0f64cf073f)
+        ;
+
+        
+    
+    
+            var marker_486e5abceb644926a7190990fc94830c = L.marker(
+                [-5.055813, 39.054142999999996],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_f962b1cbfaa64b56b1361626d8d6fd61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9a8425aa2b242539ce345bbdb534c51 = $(`<div id="html_d9a8425aa2b242539ce345bbdb534c51" style="width: 100.0%; height: 100.0%;">Group:Al-Shabaab<br>Country:Tanzania</div>`)[0];
+            popup_f962b1cbfaa64b56b1361626d8d6fd61.setContent(html_d9a8425aa2b242539ce345bbdb534c51);
+        
+
+        marker_486e5abceb644926a7190990fc94830c.bindPopup(popup_f962b1cbfaa64b56b1361626d8d6fd61)
+        ;
+
+        
+    
+    
+            var marker_d6521f56540d4683a6dfd179266913ab = L.marker(
+                [50.290575, 2.7767060000000003],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_3364d52ad35a4e00b59727eea4bb1e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_298d998e1a644123bac68482dfd2a334 = $(`<div id="html_298d998e1a644123bac68482dfd2a334" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:France</div>`)[0];
+            popup_3364d52ad35a4e00b59727eea4bb1e15.setContent(html_298d998e1a644123bac68482dfd2a334);
+        
+
+        marker_d6521f56540d4683a6dfd179266913ab.bindPopup(popup_3364d52ad35a4e00b59727eea4bb1e15)
+        ;
+
+        
+    
+    
+            var marker_59c28e8dfd974f7db773f058a3690ea1 = L.marker(
+                [26.13883, 50.477737],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_65cd80e3fee542b3919828fadd90d466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a934c17d38534c1b9418d9d26f49603d = $(`<div id="html_a934c17d38534c1b9418d9d26f49603d" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Bahrain</div>`)[0];
+            popup_65cd80e3fee542b3919828fadd90d466.setContent(html_a934c17d38534c1b9418d9d26f49603d);
+        
+
+        marker_59c28e8dfd974f7db773f058a3690ea1.bindPopup(popup_65cd80e3fee542b3919828fadd90d466)
+        ;
+
+        
+    
+    
+            var marker_ce7beb0605c549f8844ccf0ddb9feed0 = L.marker(
+                [31.796295, 36.211077],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_459ea318b7a84511ad45ebc9a5cce3cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2102e587ae44d1ea4f32e7ec66a3e36 = $(`<div id="html_f2102e587ae44d1ea4f32e7ec66a3e36" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Jordan</div>`)[0];
+            popup_459ea318b7a84511ad45ebc9a5cce3cc.setContent(html_f2102e587ae44d1ea4f32e7ec66a3e36);
+        
+
+        marker_ce7beb0605c549f8844ccf0ddb9feed0.bindPopup(popup_459ea318b7a84511ad45ebc9a5cce3cc)
+        ;
+
+        
+    
+    
+            var marker_21a11ac5b33e40dfa8777acd13e07b89 = L.marker(
+                [0.224021, 41.601181],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_cf0694bd1b1f450f95596781d87d9d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_737dc743029242488ab402cf21efa077 = $(`<div id="html_737dc743029242488ab402cf21efa077" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Somalia</div>`)[0];
+            popup_cf0694bd1b1f450f95596781d87d9d00.setContent(html_737dc743029242488ab402cf21efa077);
+        
+
+        marker_21a11ac5b33e40dfa8777acd13e07b89.bindPopup(popup_cf0694bd1b1f450f95596781d87d9d00)
+        ;
+
+        
+    
+    
+            var marker_895216914d5e4e40b8cafce6432bdd46 = L.marker(
+                [52.375906, 9.731978],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_4e55f655c5fc4748b5f6bd3081e9c828 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a6f745f7d684f1eac4c559fd8323802 = $(`<div id="html_0a6f745f7d684f1eac4c559fd8323802" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Germany</div>`)[0];
+            popup_4e55f655c5fc4748b5f6bd3081e9c828.setContent(html_0a6f745f7d684f1eac4c559fd8323802);
+        
+
+        marker_895216914d5e4e40b8cafce6432bdd46.bindPopup(popup_4e55f655c5fc4748b5f6bd3081e9c828)
+        ;
+
+        
+    
+    
+            var marker_e236b8db380f4997a480921f9be84a72 = L.marker(
+                [6.495387, 122.068013],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_10810ee5d1744ae4bced9cea2d0b2f4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fc9e0b1b8384b3ea3cf08039675fcb7 = $(`<div id="html_0fc9e0b1b8384b3ea3cf08039675fcb7" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Philippines</div>`)[0];
+            popup_10810ee5d1744ae4bced9cea2d0b2f4e.setContent(html_0fc9e0b1b8384b3ea3cf08039675fcb7);
+        
+
+        marker_e236b8db380f4997a480921f9be84a72.bindPopup(popup_10810ee5d1744ae4bced9cea2d0b2f4e)
+        ;
+
+        
+    
+    
+            var marker_776bcbd4ff904225a8d1edaff5b4faca = L.marker(
+                [3.032715, 101.618802],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_5870f390cbf9420aa2f8b09b369cf498 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c32c55234d840a9ab93d7f8d453ac51 = $(`<div id="html_1c32c55234d840a9ab93d7f8d453ac51" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Malaysia</div>`)[0];
+            popup_5870f390cbf9420aa2f8b09b369cf498.setContent(html_1c32c55234d840a9ab93d7f8d453ac51);
+        
+
+        marker_776bcbd4ff904225a8d1edaff5b4faca.bindPopup(popup_5870f390cbf9420aa2f8b09b369cf498)
+        ;
+
+        
+    
+    
+            var marker_7431a9f366dd47e3a73a05043ffeb1e0 = L.marker(
+                [-7.556169000000001, 110.82305900000001],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_1a78972f1b85405ba6a9c4488c00aaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ef27971354d483e9aefdd0073e35196 = $(`<div id="html_2ef27971354d483e9aefdd0073e35196" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Indonesia</div>`)[0];
+            popup_1a78972f1b85405ba6a9c4488c00aaff.setContent(html_2ef27971354d483e9aefdd0073e35196);
+        
+
+        marker_7431a9f366dd47e3a73a05043ffeb1e0.bindPopup(popup_1a78972f1b85405ba6a9c4488c00aaff)
+        ;
+
+        
+    
+    
+            var marker_dcde1ab1b6fc44d1bf7f7cf1cbbf2076 = L.marker(
+                [55.798251, 37.968052],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_c87f7a83f40c4b62a87d7b308e225fbc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36e8d86cafca4de4abd69d41aed47871 = $(`<div id="html_36e8d86cafca4de4abd69d41aed47871" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Russia</div>`)[0];
+            popup_c87f7a83f40c4b62a87d7b308e225fbc.setContent(html_36e8d86cafca4de4abd69d41aed47871);
+        
+
+        marker_dcde1ab1b6fc44d1bf7f7cf1cbbf2076.bindPopup(popup_c87f7a83f40c4b62a87d7b308e225fbc)
+        ;
+
+        
+    
+    
+            var marker_e2077be1bb7b433b9a8172b203ee8eb3 = L.marker(
+                [43.001525, 41.023415],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_5f8cf530346946d5b9a13e2490f110d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cee25fc954e416a98f3031be15d1343 = $(`<div id="html_5cee25fc954e416a98f3031be15d1343" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Georgia</div>`)[0];
+            popup_5f8cf530346946d5b9a13e2490f110d5.setContent(html_5cee25fc954e416a98f3031be15d1343);
+        
+
+        marker_e2077be1bb7b433b9a8172b203ee8eb3.bindPopup(popup_5f8cf530346946d5b9a13e2490f110d5)
+        ;
+
+        
+    
+    
+            var marker_354bb9ef34bb4705ad2331166ab2eb55 = L.marker(
+                [53.488228, -2.244026],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_06b822add9c44588a0fb2122d1a08e72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62bba2ed85245558d027b6ed583d8a7 = $(`<div id="html_c62bba2ed85245558d027b6ed583d8a7" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:United Kingdom</div>`)[0];
+            popup_06b822add9c44588a0fb2122d1a08e72.setContent(html_c62bba2ed85245558d027b6ed583d8a7);
+        
+
+        marker_354bb9ef34bb4705ad2331166ab2eb55.bindPopup(popup_06b822add9c44588a0fb2122d1a08e72)
+        ;
+
+        
+    
+    
+            var marker_82ce6dbb5441446c8e9b4f3390fe8681 = L.marker(
+                [35.724533, 51.405190000000005],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_9c5a3e0a3ce343e1ab6ed39236754356 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799b3795ea1f4844838f91f0ae486698 = $(`<div id="html_799b3795ea1f4844838f91f0ae486698" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Iran</div>`)[0];
+            popup_9c5a3e0a3ce343e1ab6ed39236754356.setContent(html_799b3795ea1f4844838f91f0ae486698);
+        
+
+        marker_82ce6dbb5441446c8e9b4f3390fe8681.bindPopup(popup_9c5a3e0a3ce343e1ab6ed39236754356)
+        ;
+
+        
+    
+    
+            var marker_977e65b912a7419e83d10f961267b660 = L.marker(
+                [-33.934490999999994, 151.179691],
+                {}
+            ).addTo(marker_cluster_c30704a873de4562a153ec08c0bd2f21);
+        
+    
+        var popup_ad4d763f7503452f9a9d35098b48c36a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac4c0376134c4dc19192313d3d373bd9 = $(`<div id="html_ac4c0376134c4dc19192313d3d373bd9" style="width: 100.0%; height: 100.0%;">Group:Islamic State of Iraq and the Levant (ISIL)<br>Country:Australia</div>`)[0];
+            popup_ad4d763f7503452f9a9d35098b48c36a.setContent(html_ac4c0376134c4dc19192313d3d373bd9);
+        
+
+        marker_977e65b912a7419e83d10f961267b660.bindPopup(popup_ad4d763f7503452f9a9d35098b48c36a)
+        ;
+
+        
+    
+    
+            var tile_layer_92e19c001c2e4f2b8cf812d385dd85c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+        
+    
+            var tile_layer_354f4ed06e094a238f2d732bdbb144e2 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+        
+    
+            var tile_layer_6423eed38f924fc7997fd6f89d8180e7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+        
+    
+            var tile_layer_4e3157912074439e978e0057d3cd5f72 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+        
+    
+            var layer_control_73af561eb837424780b4444bc47a810e = {
+                base_layers : {
+                    "stamenterrain" : tile_layer_354f4ed06e094a238f2d732bdbb144e2,
+                    "openstreetmap" : tile_layer_92e19c001c2e4f2b8cf812d385dd85c3,
+                    "cartodbdark_matter" : tile_layer_6423eed38f924fc7997fd6f89d8180e7,
+                    "stamentoner" : tile_layer_4e3157912074439e978e0057d3cd5f72,
+                },
+                overlays :  {
+                },
+            };
+            L.control.layers(
+                layer_control_73af561eb837424780b4444bc47a810e.base_layers,
+                layer_control_73af561eb837424780b4444bc47a810e.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_ab06c16297ce4f34af277b230cc25f21);
+            tile_layer_92e19c001c2e4f2b8cf812d385dd85c3.remove();
+            tile_layer_354f4ed06e094a238f2d732bdbb144e2.remove();
+            tile_layer_6423eed38f924fc7997fd6f89d8180e7.remove();
+            tile_layer_4e3157912074439e978e0057d3cd5f72.remove();
+        
+</script>
